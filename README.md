@@ -76,7 +76,7 @@
 
 ## Dashboard Informasi Fasilitas Pelayanan dan SDM Kesehatan Indonesia Tahun 2016-2020
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![dashboard](https://user-images.githubusercontent.com/107851682/174741865-102abc8e-ab2e-4b90-8873-bc861a483951.PNG)
 
 Kesehatan merupakan hal penting dalam kehidupan, terutama dalam menjalankan semua aktivitas. Beberapa bagian dari kesehatan diantaranya adalah fasilitas pelayanan kesehatan dan sumber daya manusia di bidang kesehatan. Keduanya penting karena dalam memberikan pelayanan kesehatan diperlukan fasilitas pelayanan kesehatan yang baik dan sumber daya manusia kesehatan yang cukup untuk meminimalisir kemugkinan buruk terjadi. Dashboard informasi yang dibuat merupakan dashboard yang memberikan informasi tentang fasilitas pelayanan kesehatan di Indonesia dari tahun 2016 sampai 2020 disertai dengan sumber daya manusia kesehatannya. Fasilitas kesehatan yang di maksud terdiri dari puskesmas dan rumah sakit. Pada fasilitas kesehatan berupa rumah sakit, akan dibedakan berdasarkan kelas dan kepemilikannya. Selain itu, ditampilkan juga tentang rasio tempat tidur rumah sakit. Kemudian, pada sumber daya kesehatan terdiri dari jumlah tenaga kesehatan dan sumber daya manusia kesehatan. Oleh karena itu, infomasi data kesehatan sangat diperlukan dan dalam menampilkan data kesehatan tersebut dapat divisualisasikan dengan pembuatan dashboard informasi. Dashboard informasi dibuat mengunakan software Tableau dengan memvisualisasikan data dalam berbagai grafik seperti choropleth map, bar chart, line chart, dan lain-lain sesuai dengan karakteristik data dan tujuannya. Pembangunan dashboard informasi ini diharapkan dapat menampilkan data dalam bentuk yang lebih dipahami pengguna. Selain itu, penelitian ini didukung juga dengan pengujian usability dashboard menggunakan metode System Usability Scale (SUS).
 
@@ -87,8 +87,6 @@ Visualiasinya meliputi :
 - Tree map, digunakan untuk memvisualisasikan Rumah Sakit di Indonesia menurut kepemilikan.
 - Bar chart, digunakan untuk memvisualisasikan rasio tempat tidur rumah sakit per 1000 penduduk di Indonesia.
 - Clustered bar chart, digunakan untuk memvisualisasikan Rumah Sakit di Indonesia menurut kelas..
-
-O
 
 Use the `BLANK_README.md` to get started.
 
@@ -124,7 +122,8 @@ Preprocessing data dilakukan dengan menggabungkan data yang diperlukan sesuai de
 
 ## Implementasi
 
-Pembuatan dashboard informasi fasilitas pelayanan dan sumber daya manusia kesehatan Indonesia menggunakan software Tableau. Visualiasinya meliputi :
+Pembuatan dashboard informasi fasilitas pelayanan dan sumber daya manusia kesehatan Indonesia menggunakan software Tableau.
+Visualiasinya meliputi :
 
 - Choropleth Map Persebaran Tenaga Kesehatan Indonesia Tahun 2016-2020. Choropleth map digunakan untuk melihat persebaran jumlah tenaga kesehatan di Indonesia menurut Provinsi untuk melihat perbedaan antarwilayah. Semakin gelap warna suatu Provinsi pada peta menunjukkan semakin banyak jumlah tenaga kesehatan di wilayah tersebut
 - Line Chart Sumber Daya Manusia Kesehatan Indonesia Tahun 2016-2020. Line chart dibuat untuk menampilkan perkembangan sumber daya manusia kesehatan rumah sakit di Indonesia dari tahun 2016 hingga 2020. Pada dashboard informasi yang dibuat, Line chart bersifat dinamis dengan fungsi untuk memilih SDM kesehatan yang ingin dilihat perkembangannya dari tahun 2016 sampai 2020. Terdapat 16 pilihan dalam SDM kesehatan yang dapat dipilih, seperti dokter umum, dokter gigi, tenaga keperawatan, kefarmasian, kebidanan, dan lain-lain. Selain itu, terdapat pengkategorian juga berdasarkan fasilitas pelayanan kesehatannya yaitu Indonesia (keseluruhan di semua fasilitas kesehatan), puskesmas, dan rumah sakit.
@@ -140,10 +139,10 @@ Pada dashboard informasi fasilitas pelayanan dan sumber daya manusia kesehatan I
 
 <!-- USAGE EXAMPLES -->
 
-### Link Penting
+## Link Penting
 
 - [Sumber Data](https://www.kemkes.go.id/folder/view/01/structure-publikasi-pusdatin-profil-kesehatan.html)
-- [Dashboard](https://public.tableau.com/app/profile/zubaidah.pangestika/viz/DashboardFasilitasPelayanandanSDMKesehatan/Dashboard3)
+- [Dashboard pada Tableau public](https://public.tableau.com/app/profile/zubaidah.pangestika/viz/DashboardFasilitasPelayanandanSDMKesehatan/Dashboard3)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -151,24 +150,13 @@ Pada dashboard informasi fasilitas pelayanan dan sumber daya manusia kesehatan I
 
 ## Roadmap
 
-0
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+-
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -176,17 +164,13 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTACT -->
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Zubaidah Pangestika
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -194,16 +178,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-- [Malven's Grid Cheatsheet](https://grid.malven.co/)
-- [Img Shields](https://shields.io)
-- [GitHub Pages](https://pages.github.com)
-- [Font Awesome](https://fontawesome.com)
-- [React Icons](https://react-icons.github.io/react-icons/search)
+-
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
